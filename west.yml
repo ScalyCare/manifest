@@ -20,7 +20,7 @@ manifest:
       path: nrf          # Where sdk-nrf will be cloned
 
     # ScalyCare project(s)
-    - name: ThermoChirp-fw
+    - name: thermochirp-fw
       remote: scalycare
       revision: develop
       path: projects/ThermoChirp-fw
