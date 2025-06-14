@@ -1,0 +1,20 @@
+# Ignore temporary or build files in workspaces that use this manifest
+build/
+zephyr/
+modules/
+bootloader/
+tools/
+nrf/
+.mcuboot/
+.west/
+.idea/
+.vscode/
+*.swp
+*.log
+
+# Ignore frozen manifest lock files if used temporarily
+west.yml.lock
+
+# Ignore Python cache if any helper tooling is added later
+__pycache__/
+*.pyc

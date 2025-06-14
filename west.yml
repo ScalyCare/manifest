@@ -1,0 +1,26 @@
+manifest:
+  version: "0.13"
+
+  defaults:
+    remote: scalycare
+
+  remotes:
+    - name: scalycare
+      url-base: https://github.com/ScalyCare
+
+    - name: nrfconnect
+      url-base: https://github.com/nrfconnect
+
+  projects:
+    # Nordic's full SDK (includes Zephyr, modules, bootloader, etc.)
+    - name: sdk-nrf
+      remote: nrfconnect
+      revision: v2.6.2
+      import: true       # This pulls zephyr, modules/, bootloader/, etc.
+      path: nrf          # Where sdk-nrf will be cloned
+
+    # ScalyCare project(s)
+    - name: ThermoChirp-fw
+      remote: scalycare
+      revision: develop
+      path: projects/ThermoChirp-fw
