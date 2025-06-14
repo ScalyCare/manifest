@@ -22,5 +22,5 @@ manifest:
     # ScalyCare project(s)
     - name: thermochirp-fw
       remote: scalycare
-      revision: develop
+      revision: main
       path: projects/ThermoChirp-fw
