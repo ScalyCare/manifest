@@ -24,3 +24,4 @@ manifest:
       remote: scalycare
       revision: main
       path: projects/ThermoChirp-fw
+      revision: v0.1.0
