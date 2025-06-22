@@ -29,6 +29,10 @@ After initializing and updating, the expected directory structure is:
 ```
 
 ---
+## Branching Policy
+
+This repository uses a single `main` branch for west manifest and version metadata. All updates should be reviewed and tested before pushing.
+---
 
 ## 🚀 Getting Started
 
